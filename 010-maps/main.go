@@ -28,12 +28,12 @@ func main() {
 
 	fmt.Println(phonebook)
 	fmt.Println(phonebook[267584967])
-
+	
 	// map içerisinde bir itemin valuesini değiştirme
 	phonebook[267584967] = "Fatih"
 	fmt.Println(phonebook)
 
-	// olmayan bir şeyi değerini değiştirmeye çalışırsanız mape yeni olarak eklenir 
+	// olmayan bir itemin değerini değiştirmeye çalışırsanız mape yeni olarak eklenir 
 	phonebook[367584967] = "Test"
 	fmt.Println(phonebook)
 }
