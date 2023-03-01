@@ -1,5 +1,6 @@
 package main
 
+// struct oluşturma 
 type bill struct {
 	name string
 	item map[string]float64
@@ -7,6 +8,9 @@ type bill struct {
 }
 
 func newBill(name string) bill {
+
+
+	// struct türetme
 	b := bill{
 		name: name,
 		item: map[string]float64{},
